@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filter {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background-color: white;
+  color: black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery-item {
+  display: none;
+  width: 200px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
